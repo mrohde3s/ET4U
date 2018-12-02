@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author markus
+ *
+ */
+module embedGame {
+}
