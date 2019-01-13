@@ -6,14 +6,13 @@ public class spieler {
 	
 	hand hand = new hand();
 	
-	public void setName() {
-		
+	//Constructor
+	public spieler (String name, int leben) {
+		this.name = name;
+		this.leben = leben;
 	}
 	
-	public void setLeben() {
-		
-	}
-	
+	//Methoden
 	public void schieben() {
 		
 	}
