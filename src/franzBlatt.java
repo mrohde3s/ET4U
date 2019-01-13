@@ -1,9 +1,53 @@
 
-public class spielkarten {
+public class franzBlatt {
+
+	public final card[] karten = {
+			new card("Pik-7", 7),
+			new card("Pik-8", 8),
+			new card("Pik-9", 9),
+			new card("Pik-10", 10),
+			new card("Pik-Bube", 10),
+			new card("Pik-Dame", 10),
+			new card("Pik-Koenig", 10),
+			new card("Pik-Ass", 11),
+			new card("Kreuz-7", 7),
+			new card("Kreuz-8", 8),
+			new card("Kreuz-9", 9),
+			new card("Kreuz-10", 10),
+			new card("Kreuz-Bube", 10),
+			new card("Kreuz-Dame", 10),
+			new card("Kreuz-Koenig", 10),
+			new card("Kreuz-Ass", 11),
+			new card("Herz-7", 7),
+			new card("Herz-8", 8),
+			new card("Herz-9", 9),
+			new card("Herz-10", 10),
+			new card("Herz-Bube", 10),
+			new card("Herz-Dame", 10),
+			new card("Herz-Koenig", 10),
+			new card("Herz-Ass", 11),
+			new card("Karo-7", 7),
+			new card("Karo-8", 8),
+			new card("Karo-9", 9),
+			new card("Karo-10", 10),
+			new card("Karo-Bube", 10),
+			new card("Karo-Dame", 10),
+			new card("Karo-Koenig", 10),
+			new card("Karo-Ass", 11),
+	};//Array mit Spielkarten
 	
-	//Anzahl Karten im Deck
-	public final int NumOfCards = 32;
-	
+	public class card{
+		
+		String name;
+		int punkte;//Punkte, die die Karte im Spiel bringt
+		
+		public card (String name, int punkte) {
+			this.name = name;
+			this.punkte = punkte;
+		}
+		
+	}
+	/*
 	public class Pik_7 {
 		static final int value = 7;
 		static final String symbol = "Pik";
@@ -235,5 +279,5 @@ public class spielkarten {
 			case 30: return new Karo_Koenig();
 			case 31: return new Karo_Ass();
 		}
-	}
+	}*/
 }
